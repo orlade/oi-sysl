@@ -1,0 +1,25 @@
+{
+  "name": "@oi/sysl",
+  "version": "0.0.1",
+  "description": "A global task runner for Sysl development",
+  "author": "Oliver Lade <piemaster21@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "oi",
+    "sysl"
+  ],
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "@oi/oi": "../oi/lib"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "extensions": {
+    "oi:module": {
+      "dev": "src/index.js"
+    }
+  }
+}
