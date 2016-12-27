@@ -6,5 +6,5 @@ An [Oi](https://github.com/orlade/oi) plugin to run [Sysl](https://github.com/AN
 
 ## Usage
 
-    npm install -g oi oi-sysl
+    npm install -g @oi/oi @oi/oi-sysl
     oi sysl -h
