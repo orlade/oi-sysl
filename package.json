@@ -12,14 +12,14 @@
     "test": "node_modules/.bin/mocha"
   },
   "dependencies": {
-    "@oi/oi": "../oi/lib"
+    "@oi/oi": "0.1.0"
   },
   "devDependencies": {
     "mocha": "^3.2.0"
   },
   "extensions": {
     "oi:module": {
-      "dev": "src/index.js"
+      "sysl": "./index.js"
     }
   }
 }

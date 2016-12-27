@@ -1,5 +1,7 @@
 # Oi Sysl
 
+[![Build Status](https://travis-ci.org/orlade/oi-sysl.svg?branch=develop)](https://travis-ci.org/orlade/oi-sysl)
+
 An [Oi](https://github.com/orlade/oi) plugin to run [Sysl](https://github.com/ANZ-bank/Sysl) tasks.
 
 ## Usage
